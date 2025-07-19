@@ -130,7 +130,7 @@ body{
     box-sizing: border-box;
 }
 .Titulo2{
-    margin: 2%;
+    margin: 2.1%;
     margin-bottom: 0%; 
 
     text-transform: uppercase;
@@ -142,7 +142,7 @@ body{
 }
 .texto2{
     margin: 0;
-    padding:15px 20px 0px 20px;
+    padding:10px 20px 0px 20px;
 
     font-size: 11px;
     text-align: justify;
@@ -274,12 +274,6 @@ body{
 
 .imagen {
     width: 150px;
-}
-}
-
-@media screen and (max-width: 450px) {
-.contenedor {
-    flex-direction: column;
 }
 }
 
