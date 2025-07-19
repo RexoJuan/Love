@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(to right, rgb(160, 29, 196), rgb(169, 64, 204), rgb(120,64,200));
+}
+
+div{
+    box-sizing: border-box ;
+}
+.box {
+    width: 400px;
+    margin: auto;
+    padding: 2px;
+    border-left: 4px solid #165efa;
+    border-right: 4px solid #165efa;
+}
+
+.titulo{
+    box-sizing: content-box;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-style:inherit;
+    background-color: aquamarine;
+    border-top: 4px solid #165efa;
+}
+
+.preguntas{
+    box-sizing: content-box;
+    background: coral;
+    color: white;
+    margin: auto;
+}
+
+.marcar{
+    box-sizing: content-box;
+    background: coral;
+    color: white;
+    display: flex;
+    margin: auto;
+    border-bottom: 4px solid #165efa;
+}

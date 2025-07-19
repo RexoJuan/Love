@@ -1,0 +1,277 @@
+body{
+    background-image: linear-gradient(to right, rgb(160, 29, 196), rgb(169, 64, 204), rgb(120,64,200));
+}
+
+.Pprueba{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-style: italic;
+    border: 2px solid rgb(53, 9, 176);
+    padding: 10px;
+    margin: 10px;
+    text-shadow: 0 0 2px blue;
+}
+.box {
+    width: 400px;
+    margin: auto;
+}
+.titulo h1{
+    box-sizing: content-box;
+    text-align: center;
+    background-color: aquamarine;
+    margin: 0;
+}
+.card{
+    box-sizing: content-box;
+    display: flex;
+    background: coral;
+    color: white;
+    margin: auto;
+}
+.img{
+    width: 100px;
+    margin: 1%;
+    height: auto;
+}
+
+
+.Parte1{
+    border: rgb(255, 0, 51) solid;
+    border-radius: 5%;
+    width: 450px;
+    height: 300px;
+    background-color: rgba(212, 138, 17, 0.5);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 3px;
+}
+.Titulo1{
+    margin: 2%;        
+    padding: 3px;
+
+    text-transform: uppercase;
+    text-shadow: -1px 2px 2px rgb(47, 12, 4);
+    text-align:center;
+    font-weight: bold;
+    font-size: 28px;
+    color: deeppink;
+}
+.Cuerpo1{
+    display: flex;
+    align-items:center;
+    gap: 15px;
+}
+    .texto1{
+        width: 40%;
+        margin-left: 40px;
+        color: white;
+        text-align: center;
+        font-size: 16px;
+    }
+    span{
+        text-transform: uppercase;
+        color: rgb(244, 67, 40);
+        font-weight: bold;
+        text-shadow: 0px 0 2px rgb(36, 16, 54);
+    }
+    .msg2{
+        font-size: 15px;
+        font-style: italic;
+        font-weight: bold;
+        text-shadow: 0 0 1px black;
+        color: rgb(128, 34, 215);
+    }
+.linkyt{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(38, 231, 241);
+    text-decoration: none;
+}
+.linkyt:hover {
+    color: darkorange; /* 🔸 Cambia el color al pasar el mouse */
+    text-decoration: underline; /* (opcional) vuelve a subrayar al pasar el mouse */
+}
+
+    .foto{
+        width: 30%;
+        height: 30%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.908), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 10px;
+    }
+        .NosotrosImg{
+            width: 85%;
+            margin: 8px 8px 0 8px;
+            border: 3px solid rgba(27, 1, 35, 0.892);
+        }
+        .dedicatoria{
+            margin: 0%;
+            padding: 6px;
+            text-align: center;
+        }
+
+
+.Parte2{
+    border: rgb(255, 166, 0) solid;
+    border-radius: 15px;
+    width: 450px;
+    height: 460px;
+    background-color: rgba(221, 239, 58, 0.5);
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    box-sizing: content-box;
+}
+.Lista{
+    border: rgb(30, 0, 255) solid;
+    background-color: white;
+    width: 65%;
+    margin: 18px;
+    box-sizing: border-box;
+}
+.Titulo2{
+    margin: 2%;        
+
+    text-transform: uppercase;
+    text-shadow: -1px 2px 2px rgb(47, 12, 4);
+    text-align:center;
+    font-weight: bold;
+    font-size: 25px;
+    color: deeppink;
+}
+.texto2{
+    margin: 0;
+    padding:15px 20px 0px 20px;
+
+    font-size: 12px;
+    text-align: justify;
+}
+.Columnas{
+    padding-top: 8px;
+    display: flex;
+    font-size: 12px;
+}
+.Columna1{
+    width: 50%;
+}
+.Columna2{
+    width: 50%;
+}
+
+.corazon{
+    margin: 0;
+    list-style: none;
+}
+.corazon li::before{
+    content: "❤️";
+}
+
+.Pictures{
+    width: 20%;
+}
+.stitch{
+    height: 23%;
+    position: relative;
+    top: 290px;
+    display: block;
+    background: transparent;
+}
+
+.Corazones{
+    width: 80%;
+    position: relative;
+    top: 20px;
+}
+
+
+.Parte3{
+    border: rgb(49, 6, 78) solid;
+    border-radius: 15px;
+    width: 70%;
+    height: 400px;
+    background-color: rgba(94, 58, 239, 0.5);
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+}
+
+.Titulo3{
+    text-transform: uppercase;
+    text-shadow: -1px 2px 2px rgb(47, 12, 4);
+    text-align:center;
+    font-weight: bold;
+    font-size: 28px;
+    color: deeppink;
+}
+
+.contenedor {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between; /* inicia separadas */
+    align-items: center;
+    padding: 0%;
+    transition: all 0.5s ease;
+    position: relative;
+}
+
+.marco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 220px;
+    overflow: hidden;
+}
+
+.imagen {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    transition: all 0.5s ease;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.etiqueta{
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    color:white;
+}
+.nosotros{
+    position: absolute;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 1;
+}
+
+/* Cuando la ventana se hace más pequeña */
+@media screen and (max-width: 700px) {
+.contenedor {
+    justify-content: center;
+    gap: 20px;
+}
+
+.nosotros {
+    opacity: 1;
+}
+
+.etiqueta {
+    display: none;
+}
+
+.imagen {
+    width: 150px;
+}
+}
+
+@media screen and (max-width: 450px) {
+.contenedor {
+    flex-direction: column;
+}
+}

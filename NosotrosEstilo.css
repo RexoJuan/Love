@@ -1,0 +1,43 @@
+body{
+    background-image: linear-gradient(to right, rgb(160, 29, 196), rgb(169, 64, 204), rgb(120,64,200));
+}
+
+p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-style: italic;
+    border: 5px solid rgb(53, 9, 176);
+    padding: 10px;
+    margin: auto;
+    width: 300px;
+}
+span{
+    font-style: italic;
+    margin: 8px;
+}
+
+.box {
+    width: 400px;
+    height: 200px;
+    margin: auto;
+}
+
+h1{
+    width: 400px;
+    height: 50px;
+    box-sizing: content-box;
+    text-align: center;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+.card{
+    box-sizing: content-box;
+    background: coral;
+    color: white;
+    margin: auto;
+}
+
+li{
+    color: black;
+}

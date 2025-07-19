@@ -1,0 +1,28 @@
+body{
+    background-image: linear-gradient(to right, rgb(160, 29, 196), rgb(169, 64, 204), rgb(120,64,200));
+}
+
+.box {
+    width: 400px;
+    margin: auto;
+}
+
+.titulo h1{
+    text-align: center;
+    background-color: aquamarine;
+    margin: 0;
+}
+
+.card{
+    background: coral;
+    color: white;
+}
+
+.diamante{
+    margin: 0;
+    list-style: none;
+}
+.diamante li::before{
+    content: "❤️";
+}
+
