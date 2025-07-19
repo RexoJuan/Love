@@ -97,7 +97,7 @@ body{
         height: 30%;
         background-color: rgb(255, 255, 255);
         box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.908), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
-        margin: 10px;
+        margin: 10px 10px 10px 30px;
     }
         .NosotrosImg{
             width: 85%;
@@ -130,29 +130,30 @@ body{
     box-sizing: border-box;
 }
 .Titulo2{
-    margin: 2%;        
+    margin: 2%;
+    margin-bottom: 0%; 
 
     text-transform: uppercase;
     text-shadow: -1px 2px 2px rgb(47, 12, 4);
     text-align:center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 23px;
     color: deeppink;
 }
 .texto2{
     margin: 0;
     padding:15px 20px 0px 20px;
 
-    font-size: 12px;
+    font-size: 11px;
     text-align: justify;
 }
 .Columnas{
     padding-top: 8px;
     display: flex;
-    font-size: 12px;
+    font-size: 11px;
 }
 .Columna1{
-    width: 50%;
+    width: 45%;
 }
 .Columna2{
     width: 50%;
@@ -161,6 +162,7 @@ body{
 .corazon{
     margin: 0;
     list-style: none;
+    text-indent: -1.4em;
 }
 .corazon li::before{
     content: "❤️";
@@ -229,22 +231,27 @@ body{
     height: auto;
     transition: all 0.5s ease;
     border-radius: 15px;
+    border-style: double;
+    border-color: brown;
+    padding: 3px;
     object-fit: cover;
 }
 .etiqueta{
     margin-top: 6px;
     font-weight: bold;
+    font-family: sans-serif;
+    font-style: oblique;
     font-size: 15px;
-    color:white;
+    color:rgb(193, 253, 255);
 }
 .nosotros{
     position: absolute;
-    background: white;
+    background-image: linear-gradient(to left, rgba(255, 60, 0, 0.834), rgba(106, 31, 181, 0.823));
     padding: 10px 20px;
     border-radius: 10px;
     font-size: 20px;
     font-weight: bold;
-    color: #444;
+    color: #f6dcf3;
     opacity: 0;
     transition: opacity 0.5s ease;
     z-index: 1;
@@ -267,6 +274,12 @@ body{
 
 .imagen {
     width: 150px;
+}
+}
+
+@media screen and (max-width: 450px) {
+.contenedor {
+    flex-direction: column;
 }
 }
 
