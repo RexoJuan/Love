@@ -37,7 +37,10 @@ h1{
     color: white;
     margin: auto;
 }
-
+.titulo{
+    font-size: medium;
+}
 li{
     color: black;
 }
+
