@@ -27,6 +27,7 @@ h1{
     height: 50px;
     box-sizing: content-box;
     text-align: center;
+    font-size: 22px;
     background-color: aquamarine;
     margin: auto;
 }
@@ -37,12 +38,10 @@ h1{
     color: white;
     margin: auto;
 }
-.titulo{
-    font-size: 12px
-    ;
-}
+
 li{
     color: black;
 }
+
 
 
