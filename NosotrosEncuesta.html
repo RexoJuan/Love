@@ -6,23 +6,48 @@
 </head>
 
 <body>
-    <div class="box titulo">Para nosotros 
-    </div>
+    <div class="Parte1">
+        <div class="box titulo">Entrevista 
+        </div>
 
-    <div class="box preguntas"> 
-        <p>Estoy aprendiendo esto por ti, por mi, por nosotros</p>
-        <p>  Dime tu nombre: <input type="text" name="username" placeholder="Bebé"> </p>
-        <p>  Dime tu apodo favorito: <input type="text" name="username" placeholder="Bebé"> </p>
-        <p>  ¿A dónde te gustaría ir conmigo?</p>
-        <p> ¿Aceptas?</p>
-    </div>
+        <div class="box preguntas"> 
+            <p>Estoy aprendiendo esto por ti, por mi, por nosotros</p>
+            <div class="campo">
+                <label for="nombre">Dime tu nombre: </label>
+                <input type="text" id="nombre" placeholder="Tu nombre hermoso" class="campo__input">
+            </div>
 
-    <div class="box marcar">   
-        Sí<input type="checkbox"> 
-        No<input type="checkbox">
-    </div>
+            <div class="campo">
+                <label for="Apodo">Dime tu apodo favorito:</label>
+                <input type="text" id="Apodo" placeholder="Bebé/amor/corazón" class="campo__input">
+            </div>
 
+            <div class="campo">
+                <label>¿A dónde te gustaría ir conmigo?</label>
+                <select class="campo__input">
+                    <option selected disabled>Una cita que quieras tener</option>
+                    <option>Playa</option>
+                    <option>Piscina</option>
+                    <option>Parque</option>
+                    <option>Bailar</option>
+                    <option>Cine</option>
+                    <option>Todas</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label>¿Aceptas?</label>
+                <label><input type="radio" name="campo" class="campo__radio">Sí</label>
+                <label><input type="radio" name="campo" class="campo__radio">No</label>
+                <label><input type="radio" name="campo" class="campo__radio">Podria ser</label>
+                <label><input type="radio" name="campo" class="campo__radio">Definitivamente</label>
+            </div>
+
+            <div class="campo">
+                <input type="submit" value="Enviar" class="campo__submit">
+            </div>
+        </div>
+    </div>
 </body>
-
 
 </html>
