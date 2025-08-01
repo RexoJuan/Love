@@ -1,40 +1,65 @@
-body{
+body{body{
     background-image: linear-gradient(to right, rgb(160, 29, 196), rgb(169, 64, 204), rgb(120,64,200));
 }
 
-div{
-    box-sizing: border-box ;
+.Parte1{
+    box-sizing: border-box;
+    border: 5px solid #c71d67;
+    border-style: dashed;
+    border-radius: 0.3rem;
+    width: 450px;
+    padding: 2.5rem 0.68rem;
+    margin: auto;
+    font-family:Helvetica, sans-serif;
+
 }
 .box {
-    width: 400px;
-    margin: auto;
-    padding: 2px;
-    border-left: 4px solid #165efa;
-    border-right: 4px solid #165efa;
+    padding: 5px;
+    box-sizing: border-box;
+    background: coral;
+    color: white;
 }
 
 .titulo{
-    box-sizing: content-box;
     text-align: center;
+    font-family: 'Times New Roman';
     font-size: 30px;
-    font-weight: 900;
+    font-weight: bolder;
     font-style:inherit;
     background-color: aquamarine;
-    border-top: 4px solid #165efa;
+    color: #000;
 }
 
-.preguntas{
-    box-sizing: content-box;
-    background: coral;
-    color: white;
-    margin: auto;
+.campo{
+    margin: 0 auto 1.25rem auto;
 }
 
-.marcar{
-    box-sizing: content-box;
-    background: coral;
-    color: white;
+.campo__input{
+    display: block;
+    width: 98%;
+    height: 2.3rem;
+    border-radius: 0.2rem;
+}
+
+.campo__radio{
+    display: inline-block;
+    margin-right: 0.6rem;
+    min-height: 0.8rem;
+    min-width: 0.8rem;
+    cursor: pointer;
+}
+
+input{
+    font-family: Georgia, Times, serif;
+}
+
+label{
     display: flex;
-    margin: auto;
-    border-bottom: 4px solid #165efa;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.campo__submit{
+    cursor: pointer;
 }
